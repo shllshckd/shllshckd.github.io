@@ -48,6 +48,7 @@ a{
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
+    top:50px;
 }
 
 .about-area{
