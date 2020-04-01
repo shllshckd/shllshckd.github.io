@@ -48,7 +48,7 @@ a{
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
-    bottom:200px;
+    bottom:400px;
 }
 
 .about-area{
@@ -132,7 +132,7 @@ html{
 .video-one{
     position: relative;
     right: 0px;
-    top:100px;
+    top:10px;
 }
 .video-two{
     position: relative;
