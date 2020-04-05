@@ -13,7 +13,7 @@ body{
     flex-wrap: wrap;
     background-color:#175e57;
     width: 100%;
-    min-height: 1%;
+    min-height: 13%;
     z-index: 1; 
 }
 
@@ -21,8 +21,13 @@ body{
     display: flex;
     justify-content: right;
     list-style: none;
-    margin-right: 15%;
+    margin-right: 10%;
 }
+
+#links{
+    color: #fff;
+}
+
 
 .logo{
     flex: 1 1 auto;
@@ -48,6 +53,7 @@ a{
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
+    color: #fff;
 }
 
 .about-area{
@@ -58,12 +64,26 @@ a{
     flex-wrap: wrap;
     flex-direction: row;
     width: 100%;
-    height: 1000px;
+    height: 800px;
+    color: #fff;
 }
 
 .text-part{
     width: 65%;
     height: 80%;
+    color: #000;
+}
+
+.links-area{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    background-color: #000;
+    height: 800px;
 }
 
 h1{
@@ -74,34 +94,26 @@ p{
     font-size: 24px;
     line-height: 40.0px;
 }
-.about-area{
-    background: #175e57;
-}
 
 html{
     scroll-behavior: smooth;
 }
 #ftr{
-    position: relative;
+    position: absolute;
     text-align: center;
     align-content: center;
     color: #fff;
     background-color: #175e57;
+    height: 80px;
+    bottom: 0px;
+    right: 0px;
+    width: 100%;
 }
 
 .foot{
-    background-color: #175e57;
+   background-color: #175e57;
 }
 
-.video-one{
-    position: relative;
-    right: 0px;
-    top:100px;
-
-.box{
-    display: none;
-    width: 100%;
-}
 
 a:hover + .box,.box:hover{
     display: block;
