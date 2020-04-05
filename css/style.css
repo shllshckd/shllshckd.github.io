@@ -60,44 +60,12 @@ a{
     width: 100%;
     height: 1000px;
 }
-.portfolio-area{
-    position: relative;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    flex-direction: row;
-    width: 100%;
-    height: 1100px;
-}
-.services-area{
-    position: relative;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    flex-direction: row;
-    width: 100%;
-    height: 5000px;
-}
-.contact-area{
-    position: relative;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    flex-direction: row;
-    width: 100%;
-    height: 1100px;
-}
+
 .text-part{
     width: 65%;
     height: 80%;
 }
-.review-part{
-    width: 65%;
-    height: 80%;
-}
+
 h1{
     font-size: 50px;
     font-family: sans-serif;
@@ -106,7 +74,7 @@ p{
     font-size: 24px;
     line-height: 40.0px;
 }
-.about-area, .services-area{
+.about-area{
     background: #fefefe;
 }
 .portfolio-area, .contact-area{
@@ -132,25 +100,6 @@ html{
     position: relative;
     right: 0px;
     top:100px;
-}
-.video-two{
-    position: relative;
-    left: 0px;
-    top:10px;
-}
-.video-three{
-    position: relative;
-    right:0.0px;
-    top:10px;
-}
-
-.video-four{
-    position: relative;
-    left:0.0px;
-    top:10px;
-}
-
-
 
 .box{
     display: none;
