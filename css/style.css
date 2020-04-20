@@ -14,6 +14,8 @@ body{
     background-color:#175e57;
     width: 100%;
     min-height: 13%;
+    
+    text-transform: uppercase;
     z-index: 1; 
 }
 
@@ -32,7 +34,6 @@ body{
 .logo{
     flex: 1 1 auto;
     margin-left: 10%;
-    text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: bold;
     font-size: 35px;
@@ -42,7 +43,6 @@ a{
     margin: 15px;
     color: #ffff;
     text-decoration: none;
-    text-transform: uppercase;
 }
 
 .banner-area{
@@ -128,8 +128,17 @@ a:hover + .box,.box:hover{
 a.steam:hover {
     text-decoration:underline;
 }
+
 a.git:hover {
     text-decoration:underline;
+}
+
+.steam {
+    text-transform:lowercase;
+}
+
+.git {
+    text-transform:lowercase;
 }
 
 a:hover + .box,.box:hover{
