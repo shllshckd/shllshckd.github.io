@@ -1,66 +1,47 @@
 body{
     margin: 0;
     padding: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family:sans-serif;
 }
-
-/* Navbar, logo */
 
 .navbar{
     position: fixed;
-    text-transform: uppercase;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
-    background-image: linear-gradient(to bottom right, #240000, #e00606);
+    background-image: linear-gradient(to bottom right, #0d2e2b, #175e57);
     width: 100%;
-    min-height: 1%;
-    z-index: 1;
+    min-height: 13%;
+    text-transform: uppercase;
+    z-index: 1; 
 }
 
 .nav{
     display: flex;
     justify-content: right;
     list-style: none;
-    margin-right: 9%;
-    margin-left: 1%;
+    margin-right: 10%;
 }
+
+#links{
+    color: #fff;
+}
+
 
 .logo{
     flex: 1 1 auto;
-    margin-left: 3%;
+    margin-left: 10%;
     letter-spacing: 1px;
     font-weight: bold;
-    font-size: 23px;
+    font-size: 35px;
     color: #ffff;
 }
-
-/* Gradients */
-
-.review-area, .links-area, .about-area, .art-area{
-    background-image: linear-gradient(to bottom right, rgb(15, 15, 15), #303030);
-    color: #fff;
-}
-.soundtr{
-    background-image: linear-gradient(to top right, rgb(15, 15, 15), #303030);
-    color: #fff;
-}
-
-.rules-area{
-    background-image: linear-gradient(to top right, rgb(15, 15, 15), #303030);
-    color: #fff;
-}
-
-/* general settings */
-
 a{
-    font-size: auto;
     margin: 15px;
     color: #ffff;
     text-decoration: none;
-    margin-left: 15px;
 }
 
 .banner-area{
@@ -71,6 +52,7 @@ a{
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
+    color: #fff;
 }
 
 .about-area{
@@ -78,31 +60,20 @@ a{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-repeat: no-repeat;
     flex-wrap: wrap;
     flex-direction: row;
     width: 100%;
-    height: 500px;
+    height: 800px;
+    color: #fff;
 }
-.review-area{
-    position: relative;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    flex-direction: row;
-    width: 100%;
-    min-height: 2400px;
+
+.text-part{
+    width: 65%;
+    height: 80%;
+    color: #000;
 }
-.art-area{
-    position: relative;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    flex-direction: row;
-    width: 100%;
-    height: 2000px;
-}
+
 .links-area{
     position: relative;
     display: flex;
@@ -110,145 +81,52 @@ a{
     align-items: center;
     flex-wrap: wrap;
     flex-direction: row;
+    background-repeat: no-repeat;
     width: 100%;
-    height: 425px;
+    background-color: #000;
+    height: 800px;
 }
 
-.soundtr{
-    position: relative;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    flex-direction: row;
-    width: 100%;
-    height: 425px;
-}
-
-.text-part, .soundtr2{
-    text-align: center;
-    width: 65%;
-    height: auto;
-}
-.review-part{
-    text-align: center;
-    width: 90%;
-    height: 80%;
-}
 h1{
-    padding:0;
-    margin:0;
-    font-size: 40px;
-    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+    font-family: sans-serif;
 }
-
 p{
-    font-size: 22px;
-    margin: 10px;
-    line-height: 37.0px;
+    font-size: 24px;
+    line-height: 40.0px;
 }
-
-.video-one{
-    position: relative;
-    right: 0px;
-    top:100px;
-    position: relative;
-    width: 100%;
-    height: 138vh;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
-}
-.video-two{
-    position: relative;
-    left: 0px;
-    top:10px;
-    position: relative;
-    width: 100%;
-    height: 138vh;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
-}
-.video-three{
-    position: relative;
-    right:0.0px;
-    top:10px;
-    position: relative;
-    width: 100%;
-    height: 138vh;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
-}
-
-.video-four{
-    position: relative;
-    left:0.0px;
-    top:10px;
-    position: relative;
-    width: 100%;
-    height: 138vh;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
-}
-
-/* index page  */
-
-.banner-area{
-    background-image: linear-gradient(to bottom right, #000, #262626);
-    position: relative;
-    width: 100%;
-    height: 138vh;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
-}
-.box{
-    display: none;
-    width: 100%;
-}
-
-/* rules images */
-
-#img1{
-    align-content: center;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: auto;
-}
-
-.rls{
-    text-align: center;
-}
-
-
-/* footer, scrollbar, misc*/
 
 html{
     scroll-behavior: smooth;
 }
-
-.foot{
+#ftr{
     position: absolute;
     text-align: center;
     align-content: center;
     color: #fff;
-    background-image: linear-gradient(to top right, #240000, #e00606);
-    height: auto;
-    font-size: 20px;
+    background-image: linear-gradient(to top right, #0d2e2b, #175e57);
+    height: 80px;
+    bottom: 0px;
     right: 0px;
     width: 100%;
+   text-transform: uppercase;
 }
 
-a.designer:hover {
+
+a:hover + .box,.box:hover{
+    display: block;
+    position: relative;
+    z-index: 100;
+}
+
+a.steam:hover {
     text-decoration:underline;
 }
-a.netflix:hover {
+
+a.git:hover {
     text-decoration:underline;
 }
+
 
 a:hover + .box,.box:hover{
     display: block;
@@ -258,7 +136,7 @@ a:hover + .box,.box:hover{
 
 ::-webkit-scrollbar {
     width: 10px;
-    background-color: #000;
+    background-color: #175e57;
 }
 
 ::-webkit-scrollbar-track {
@@ -267,6 +145,6 @@ a:hover + .box,.box:hover{
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #fff;
+    background: white;
     border-radius: 10px;
 }
