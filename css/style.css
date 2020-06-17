@@ -13,7 +13,7 @@ body{
     flex-wrap: wrap;
     background-image: linear-gradient(to bottom right, #0d2e2b, #175e57);
     width: 100%;
-    min-height: 13%;
+    min-height: 3%;
     text-transform: uppercase;
     z-index: 1; 
 }
@@ -109,7 +109,7 @@ html{
     bottom: 0px;
     right: 0px;
     width: 100%;
-   text-transform: uppercase;
+    text-transform: uppercase;
 }
 
 
