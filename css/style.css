@@ -8,6 +8,8 @@ html {
     scroll-behavior: smooth;
 }
 
+/* logo */
+
 .logo {
     flex: 1 1 auto;
     margin-left: 5%;
@@ -16,6 +18,8 @@ html {
     font-size: 35px;
     color: #ffff;
 }
+
+/* navbar */
 
 .navbar {
     position: fixed;
@@ -38,9 +42,7 @@ html {
     margin-right: 5%;
 }
 
-#links {
-    color: #fff;
-}
+/* divs settings */
 
 .banner-area {
     position: relative;
@@ -91,6 +93,7 @@ html {
     color: #fff;
 }
 
+/* h1, p, a settings */
 
 h1 {
     font-size: 50px;
