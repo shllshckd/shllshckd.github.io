@@ -29,7 +29,6 @@ body {
     color: #fff;
 }
 
-
 .logo {
     flex: 1 1 auto;
     margin-left: 10%;
@@ -38,6 +37,7 @@ body {
     font-size: 35px;
     color: #ffff;
 }
+
 a {
     margin: 15px;
     color: #ffff;
@@ -74,6 +74,12 @@ a {
     color: #000;
 }
 
+.links-part {
+    width: 65%;
+    height: 80%;
+    color: #fff;
+}
+
 .links-area {
     position: relative;
     display: flex;
@@ -100,6 +106,7 @@ p {
 html {
     scroll-behavior: smooth;
 }
+
 #ftr {
     position: absolute;
     text-align: center;
@@ -126,7 +133,6 @@ a.steam:hover {
 a.git:hover {
     text-decoration:underline;
 }
-
 
 a:hover + .box,.box:hover{
     display: block;
