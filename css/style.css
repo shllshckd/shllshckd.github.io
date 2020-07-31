@@ -4,6 +4,19 @@ body {
     font-family:sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+.logo {
+    flex: 1 1 auto;
+    margin-left: 5%;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 35px;
+    color: #ffff;
+}
+
 .navbar {
     position: fixed;
     display: flex;
@@ -22,26 +35,11 @@ body {
     display: flex;
     justify-content: right;
     list-style: none;
-    margin-right: 10%;
+    margin-right: 5%;
 }
 
 #links {
     color: #fff;
-}
-
-.logo {
-    flex: 1 1 auto;
-    margin-left: 10%;
-    letter-spacing: 1px;
-    font-weight: bold;
-    font-size: 35px;
-    color: #ffff;
-}
-
-a {
-    margin: 15px;
-    color: #ffff;
-    text-decoration: none;
 }
 
 .banner-area {
@@ -66,32 +64,33 @@ a {
     width: 100%;
     height: 800px;
     color: #fff;
-}
-
-.text-part {
-    width: 65%;
-    height: 80%;
-    color: #000;
-}
-
-.links-part {
-    width: 65%;
-    height: 80%;
-    color: #fff;
-}
+} 
 
 .links-area {
     position: relative;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-repeat: no-repeat;
     flex-wrap: wrap;
     flex-direction: row;
-    background-repeat: no-repeat;
     width: 100%;
     height: 800px;
     background-color: #000;
 }
+
+.text-part {
+    width: 85%;
+    height: 80%;
+    color: #000;
+}
+
+.links-part{
+    width: 70%;
+    height: 80%;
+    color: #fff;
+}
+
 
 h1 {
     font-size: 50px;
@@ -103,9 +102,13 @@ p {
     line-height: 40.0px;
 }
 
-html {
-    scroll-behavior: smooth;
+a {
+    margin: 15px;
+    color: #ffff;
+    text-decoration: none;
 }
+
+/* footer */
 
 #ftr {
     position: absolute;
@@ -120,25 +123,33 @@ html {
     text-transform: uppercase;
 }
 
-a:hover + .box,.box:hover{
+/* hover effects */
+
+.steam-ftr:hover {
+    text-decoration: underline;
+}
+
+a:hover + .box,.box:hover {
     display: block;
     position: relative;
     z-index: 100;
 }
 
 a.steam:hover {
-    text-decoration:underline;
+    text-decoration: underline;
 }
 
 a.git:hover {
-    text-decoration:underline;
+    text-decoration: underline;
 }
 
-a:hover + .box,.box:hover{
+a:hover + .box,.box:hover {
     display: block;
     position: relative;
     z-index: 1;
 }
+
+/* scrollbar */
 
 ::-webkit-scrollbar {
     width: 10px;
