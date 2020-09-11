@@ -121,6 +121,10 @@ small {
     padding-bottom: 1rem;
 }
 
+.white {
+    color: #fff;
+}
+
 /* override background and gradiends for projects page */
 .background-2 {
     background-image: url(../img/background5.jpg);
