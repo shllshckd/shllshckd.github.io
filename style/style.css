@@ -121,6 +121,20 @@ small {
     padding-bottom: 1rem;
 }
 
+/* override background and gradiends for projects page */
+.background-2 {
+    background-image: url(../img/background5.jpg);
+}
+
+.projects-about {
+    background: linear-gradient(#0f4a55, #9c2b25) !important;
+}
+
+.projects-footer {
+    background: linear-gradient(#9c2b25, #9c2b25);
+}
+
+
 footer {
     text-align: center;
     font-size: 130%;
