@@ -101,6 +101,18 @@ small {
     font-size: 500%;
 }
 
+#about h2 {
+    font-size: 350%;
+}
+
+.no-underline {
+    text-decoration: none;
+}
+
+.no-underline:hover {
+    text-decoration: underline;
+}
+
 #about p {
     font-size: 150%;
 }
