@@ -220,8 +220,11 @@ footer {
 }
 
 @media (max-width: 375px) {
+    .cover h1 {
+        font-size: 190%;
+    }
     #about h1, #about h2 {
-        font-size: 230%;
+        font-size: 220%;
     }
     /* .cover h1 {
         font-size: 150%;
