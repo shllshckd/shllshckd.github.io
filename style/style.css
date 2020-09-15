@@ -87,7 +87,7 @@ small {
     text-align: center;
     position: absolute;
     top: 50%;
-    transform: translateY(-50%);
+    transform: translateY(-58%); /* -50% */
 }
 
 #about {
@@ -137,6 +137,13 @@ small {
     color: #fff;
 }
 
+.fab {
+    color: #fff;
+    font-size: 250%;
+    padding-top: .2rem;
+    padding-bottom: .2rem;
+}
+
 /* override background and gradiends for projects page */
 .background-2 {
     background-image: url(../img/background5.jpg);
@@ -150,7 +157,6 @@ small {
     background: linear-gradient(#9c2b25, #9c2b25);
 }
 
-
 footer {
     text-align: center;
     font-size: 130%;
@@ -160,25 +166,25 @@ footer {
 }
 
 @media (max-width: 700px) {
-    .cover h1, #about h1 {
+    .cover h1, #about h1, #about h2 {
         font-size: 450%;
     }
 }
 
 @media (max-width: 650px) {
-    .cover h1, #about h1 {
+    .cover h1, #about h1, #about h2 {
         font-size: 400%;
     }
 }
 
 @media (max-width: 600px) {
-    .cover h1, #about h1 {
+    .cover h1, #about h1, #about h2 {
         font-size: 350%;
     }
 }
 
 @media (max-width: 550px) {
-    .cover h1 {
+    .cover h1, #about h1, #about h2 {
         font-size: 300%;
     }
 }
@@ -211,5 +217,19 @@ footer {
     .about-btn {
         visibility: hidden;
     }
+}
 
+@media (max-width: 375px) {
+    #about h1, #about h2 {
+        font-size: 230%;
+    }
+    /* .cover h1 {
+        font-size: 150%;
+    } */
+    .fab {
+        font-size: 210%;
+    }
+    .social-links {
+        transform: translate(70%, -80%);
+    }
 }
