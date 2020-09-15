@@ -67,13 +67,12 @@ small {
     top: 0;
 }
 
-.menu {
+/* .menu {
     display: block;
     width: 25px;
     margin: 40px auto 0;
     cursor: pointer;
-
-}
+} */
 
 .social-links img {
     width: 350%;
